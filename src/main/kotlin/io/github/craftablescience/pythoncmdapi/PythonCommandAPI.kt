@@ -1,10 +1,13 @@
 package io.github.craftablescience.pythoncmdapi
 
 
-fun init() {
-    // This code runs as soon as Minecraft is in a mod-load-ready state.
-    // However, some things (like resources) may still be uninitialized.
-    // Proceed with mild caution.
+class PythonCommandAPI {
 
-    println("Hello Fabric world!")
+    fun init() {
+        // This code runs as soon as Minecraft is in a mod-load-ready state.
+        // However, some things (like resources) may still be uninitialized.
+        // Proceed with mild caution.
+
+        println("Hello Fabric world!")
+    }
 }
