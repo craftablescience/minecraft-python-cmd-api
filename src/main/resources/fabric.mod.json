@@ -1,37 +1,41 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "pythoncmdapi",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Python Command API",
+  "description": "Allows for Python scripts to call commands in Minecraft.",
   "authors": [
-    "Me!"
+    "craftablescience"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://craftablescience.github.io/",
+    "sources": "https://github.com/craftablescience/minecraft-cmd-python-api"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/pythoncmdapi/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      "io.github.craftablescience.pythoncmdapi.PythonCommandAPI::init"
     ]
   },
   "mixins": [
     "modid.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.8.7",
+    "fabricloader": ">=0.9.2",
     "fabric": "*",
     "fabric-language-kotlin": "*",
     "minecraft": "1.16.x"
   },
   "suggests": {
     "flamingo": "*"
+  },
+  "custom": {
+    "modmenu:api": true,
+    "modmenu:clientsideOnly": false
   }
 }
