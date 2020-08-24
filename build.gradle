@@ -1,7 +1,6 @@
 plugins {
-    id 'fabric-loom'
+    id 'fabric-loom' version '0.4-SNAPSHOT'
     id 'maven-publish'
-    id "org.jetbrains.kotlin.jvm"
 }
 
 sourceCompatibility = JavaVersion.VERSION_1_8
@@ -16,7 +15,7 @@ minecraft {
 
 repositories {
     maven { url = "http://maven.fabricmc.net/" }
-    maven { url "https://maven.modmuss50.me" }
+    maven { url = "https://maven.modmuss50.me" }
 }
 
 dependencies {
@@ -24,8 +23,6 @@ dependencies {
     mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-
-    modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
 
     modImplementation("io.github.prospector:modmenu:${project.modmenu_version}") { transitive = false }
 }
@@ -73,5 +70,3 @@ publishing {
         // mavenLocal()
     }
 }
-
-compileKotlin.kotlinOptions.jvmTarget = "1.8"

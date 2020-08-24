@@ -18,9 +18,8 @@
 
   "environment": "*",
   "entrypoints": {
-    "main": [
-      "io.github.craftablescience.pythoncmdapi.PythonCommandAPI::init"
-    ]
+    "main":    ["io.github.craftablescience.pythoncmdapi.PythonCommandAPI"],
+    "modmenu": ["io.github.craftablescience.pythoncmdapi.hooks.ModMenuAPI"]
   },
   "mixins": [
     "modid.mixins.json"
@@ -28,14 +27,13 @@
   "depends": {
     "fabricloader": ">=0.9.2",
     "fabric": "*",
-    "fabric-language-kotlin": "*",
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "flamingo": "*"
+    "modmenu": "*"
   },
   "custom": {
-    "modmenu:api": true,
+    "modmenu:api": false,
     "modmenu:clientsideOnly": false
   }
 }
