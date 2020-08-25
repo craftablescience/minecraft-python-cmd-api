@@ -1,7 +1,9 @@
 {
-  "pythoncmdapi.commands.python.loading": "Running \"%s\"...",
-  "pythoncmdapi.commands.python.failure": "Failed to run \"%s\".",
-  "pythoncmdapi.commands.python.done": "Finished running \"%s\".",
+  "pythoncmdapi.commands.python.loading": "Running \"%s\"",
+  "pythoncmdapi.commands.python.failure": "Failed to run \"%s\"",
 
-  "pythoncmdapi.commands.py_runline.failure": "Failed to run \"%s\": \"%s\""
+  "pythoncmdapi.commands.py_runline.failure": "Failed to run \"%s\": \"%s\"",
+
+  "pythoncmdapi.commands.py_scandir.failure": "Failed to find Python scripts: \"%s\"",
+  "pythoncmdapi.commands.py_scandir.number_of_files": "There are %d Python scripts in the python folder"
 }
