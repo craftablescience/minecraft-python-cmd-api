@@ -25,6 +25,8 @@ dependencies {
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
     modImplementation("io.github.prospector:modmenu:${project.modmenu_version}") { transitive = false }
+
+    implementation "org.python:jython-standalone:${project.jython_version}"
 }
 
 processResources {

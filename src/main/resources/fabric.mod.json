@@ -18,8 +18,7 @@
 
   "environment": "*",
   "entrypoints": {
-    "main":    ["io.github.craftablescience.pythoncmdapi.PythonCommandAPI"],
-    "modmenu": ["io.github.craftablescience.pythoncmdapi.hooks.ModMenuAPI"]
+    "main":    ["io.github.craftablescience.pythoncmdapi.PythonCommandAPI"]
   },
   "mixins": [
     "modid.mixins.json"
@@ -33,7 +32,7 @@
     "modmenu": "*"
   },
   "custom": {
-    "modmenu:api": false,
+    "modmenu:api": true,
     "modmenu:clientsideOnly": false
   }
 }

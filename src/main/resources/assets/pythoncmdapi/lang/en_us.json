@@ -1,0 +1,5 @@
+{
+  "pythoncmdapi.commands.python.loading": "Running \"%s\"...",
+  "pythoncmdapi.commands.python.failure": "Failed to run \"%s\".",
+  "pythoncmdapi.commands.python.done": "Finished running \"%s\"."
+}
