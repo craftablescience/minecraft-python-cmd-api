@@ -3,4 +3,4 @@ A work in progress. Run Python scripts stored on the server (or client in single
 
 Planned features:
 - Programs run in their own thread (highest priority feature)
-- Minecraft python library for integration into the game
+- Minecraft python library for easy integration into the game
