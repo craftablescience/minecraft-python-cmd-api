@@ -1,7 +1,7 @@
 package io.github.craftablescience.pythoncmdapi;
 
 
-import io.github.craftablescience.pythoncmdapi.command.RunPythonFileCommand;
+import io.github.craftablescience.pythoncmdapi.server.command.RunPythonFileCommand;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

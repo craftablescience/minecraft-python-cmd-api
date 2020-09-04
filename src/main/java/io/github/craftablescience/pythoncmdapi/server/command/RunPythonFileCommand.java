@@ -1,4 +1,4 @@
-package io.github.craftablescience.pythoncmdapi.command;
+package io.github.craftablescience.pythoncmdapi.server.command;
 
 import com.mojang.brigadier.StringReader;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
