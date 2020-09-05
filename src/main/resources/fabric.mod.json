@@ -9,16 +9,16 @@
     "craftablescience"
   ],
   "contact": {
-    "homepage": "https://craftablescience.github.io/",
-    "sources": "https://github.com/craftablescience/minecraft-cmd-python-api"
+    "homepage": "https://craftablescience.github.io/minecraft-cmd-python-api",
+    "sources": "https://www.curseforge.com/minecraft/mc-mods/python-command-api"
   },
 
-  "license": "CC0-1.0",
+  "license": "GPL-v3",
   "icon": "assets/pythoncmdapi/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main":    ["io.github.craftablescience.pythoncmdapi.PythonCommandAPI"]
+    "main": ["io.github.craftablescience.pythoncmdapi.PythonCommandAPI"]
   },
   "mixins": [
     "modid.mixins.json"
