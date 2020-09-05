@@ -1,0 +1,9 @@
+{
+  "pythoncmdapi.commands.python.loading": "Funcionamiento. \"%s\"",
+  "pythoncmdapi.commands.python.failure": "No se pudo funcionamiento. \"%s\"",
+
+  "pythoncmdapi.commands.py_runline.failure": "No se pudo funcionamiento. \"%s\": \"%s\"",
+
+  "pythoncmdapi.commands.py_scandir.failure": "No se pudieron encontrar scripts de Python: \"%s\"",
+  "pythoncmdapi.commands.py_scandir.number_of_files": "Hay %d scripts de Python en la carpeta python\n\n"
+}
