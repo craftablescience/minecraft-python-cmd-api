@@ -3,4 +3,4 @@ A work in progress. Run Python scripts stored on the server (or client in single
 
 Please check the projects page for a list of planned features
 
-### Need help setting up, want to suggest a feature, or wanting to become a contributor? Join the Discord at [discord.gg/ASgHFkX](https://discord.gg/ASgHFkX).
+### Need help setting up, want to suggest a feature, or want to become a contributor? Join the Discord at [discord.gg/ASgHFkX](https://discord.gg/ASgHFkX).
