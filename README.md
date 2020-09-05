@@ -3,3 +3,5 @@ A work in progress. Run Python scripts stored on the server (or client in single
 
 Planned features:
 - Check projects page for list of planned features
+
+### Need help setting up, or wanting to become a contributor? Join the Discord at [discord.gg/ASgHFkX](https://discord.gg/ASgHFkX).
