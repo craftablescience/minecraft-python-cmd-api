@@ -1,0 +1,9 @@
+{
+  "pythoncmdapi.commands.python.loading": "Запускаем \"%s\"",
+  "pythoncmdapi.commands.python.failure": "Не удалось запустить \"%s\"",
+
+  "pythoncmdapi.commands.py_runline.failure": "Не удалось запустить \"%s\": \"%s\"",
+
+  "pythoncmdapi.commands.py_scandir.failure": "Не удалось найти Python скрипт : \"%s\"",
+  "pythoncmdapi.commands.py_scandir.number_of_files": "Там %d Скриптов Python  в Папке Python"
+}
