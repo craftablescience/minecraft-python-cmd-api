@@ -6,7 +6,9 @@
   "name": "Python Command API",
   "description": "Allows for Python scripts to call commands in Minecraft.",
   "authors": [
-    "craftablescience"
+    "craftablescience",
+    "sebasphere",
+    "mMONTAGEe"
   ],
   "contact": {
     "homepage": "https://craftablescience.github.io/minecraft-cmd-python-api",
