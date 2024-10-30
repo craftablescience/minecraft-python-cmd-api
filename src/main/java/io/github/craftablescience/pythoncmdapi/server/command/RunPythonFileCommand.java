@@ -45,7 +45,7 @@ public class RunPythonFileCommand {
     }
 
     private static int python(CommandContext<ServerCommandSource> context) {
-        context.getSource().getMinecraftServer().execute(() -> {
+        context.getSource().getServer().execute(() -> {
             String path = context.getArgument("filename", String.class).trim();
             context.getSource().sendFeedback(new TranslatableText(MOD_ID + ".commands.python.loading", path).setStyle(Style.EMPTY.withColor(Formatting.GREEN)), true);
 
@@ -63,7 +63,7 @@ public class RunPythonFileCommand {
     }
 
     private static int py_runline(CommandContext<ServerCommandSource> context) {
-        context.getSource().getMinecraftServer().execute(() -> {
+        context.getSource().getServer().execute(() -> {
             String code = context.getArgument("code to execute", String.class).trim();
 
             try {
@@ -77,7 +77,7 @@ public class RunPythonFileCommand {
     }
 
     private static int py_scandir(CommandContext<ServerCommandSource> context) {
-        context.getSource().getMinecraftServer().execute(() -> {
+        context.getSource().getServer().execute(() -> {
             try {
                 AtomicInteger count = new AtomicInteger(0);
                 ArrayList<String> filenames = new ArrayList<>();
